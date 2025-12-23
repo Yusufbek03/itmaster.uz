@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IT Мастер - профессиональный ремонт и обслуживание компьютеров и ноутбуков">
+    <title>IT Мастер | Ремонт компьютеров и ноутбуков</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">
+                <div class="logo-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <span>IT Мастер</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#services" data-i18n="nav-services">Услуги</a></li>
+                <li><a href="#pricing" data-i18n="nav-pricing">Цены</a></li>
+                <li><a href="#contact" data-i18n="nav-contact">Контакты</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <div class="lang-switcher">
+                    <button class="lang-btn active" data-lang="ru">RU</button>
+                    <button class="lang-btn" data-lang="uz">UZ</button>
+                </div>
+                <a href="tel:+998936730767" class="btn btn-primary btn-sm">
+                    <i class="fas fa-phone-alt"></i>
+                    <span data-i18n="nav-call">Позвонить</span>
+                </a>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="fade-in" data-i18n="hero-title">Ремонт компьютеров <span class="highlight">быстро и качественно</span></h1>
+                <p class="fade-in delay-1" data-i18n="hero-subtitle">Профессиональный ремонт и обслуживание компьютеров и ноутбуков для физических лиц и бизнеса. Выезд мастера на дом или в офис.</p>
+                <div class="hero-buttons fade-in delay-2">
+                    <a href="#contact" class="btn btn-primary btn-lg" data-i18n="hero-cta-order">
+                        Заказать ремонт
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image fade-in-right delay-2">
+                <div class="hero-illustration">
+                    <div class="floating-element el-1"><i class="fas fa-wrench"></i></div>
+                    <div class="floating-element el-2"><i class="fas fa-microchip"></i></div>
+                    <div class="floating-element el-3"><i class="fas fa-shield-alt"></i></div>
+                    <div class="main-circle">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="badge badge-1">Design</div>
+                    <div class="badge badge-2">Code</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Partners Bar -->
+    <section class="partners">
+        <div class="container">
+            <div class="partners-list">
+                <div class="partner"><i class="fab fa-windows"></i> Windows</div>
+                <div class="partner"><i class="fab fa-apple"></i> Apple</div>
+                <div class="partner"><i class="fas fa-laptop"></i> Lenovo</div>
+                <div class="partner"><i class="fas fa-desktop"></i> HP</div>
+                <div class="partner"><i class="fas fa-server"></i> Dell</div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Benefits Section -->
+    <section id="services" class="benefits">
+        <div class="container">
+            <div class="benefits-content">
+                <div class="benefits-image fade-in-left">
+                    <div class="benefits-illustration">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                </div>
+                <div class="benefits-text">
+                    <h2 class="fade-in-right" data-i18n="benefits-title"><span class="highlight">Преимущества</span> нашего сервиса</h2>
+                    <div class="benefits-list">
+                        <div class="benefit-item fade-in-right delay-1">
+                            <div class="benefit-icon"><i class="fas fa-clock"></i></div>
+                            <div class="benefit-content">
+                                <h4 data-i18n="benefits-1-h">Быстрый ремонт</h4>
+                                <p data-i18n="benefits-1-p">Большинство ремонтов выполняем за 1-2 часа. Срочный ремонт в день обращения.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item fade-in-right delay-2">
+                            <div class="benefit-icon"><i class="fas fa-medal"></i></div>
+                            <div class="benefit-content">
+                                <h4 data-i18n="benefits-2-h">Гарантия качества</h4>
+                                <p data-i18n="benefits-2-p">Даем гарантию за качественную работу и ответственность на каждом этапе выполнения.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item fade-in-right delay-3">
+                            <div class="benefit-icon"><i class="fas fa-truck"></i></div>
+                            <div class="benefit-content">
+                                <h4 data-i18n="benefits-3-h">Выезд мастера</h4>
+                                <p data-i18n="benefits-3-p">Мастер приедет к вам домой или в офис в удобное для вас время.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Cards -->
+    <section id="pricing" class="services-section">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 data-i18n="services-title">Услуги и цены</h2>
+                <p data-i18n="services-subtitle">Профессиональный ремонт и обслуживание компьютерной техники. Работаем с физическими лицами и бизнесом.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card scale-in delay-1" data-service="windows" data-title="Установка Windows + драйверы" data-price="150-200 тыс сум" data-steps="Диагностика текущего состояния|Резервное копирование данных|Установка Windows|Установка всех драйверов|Активация системы|Установка базовых программ|Проверка работоспособности">
+                    <div class="card-image">
+                        <div class="card-icon"><i class="fab fa-windows"></i></div>
+                        <span class="card-badge" data-i18n="card-badge-popular">Популярно</span>
+                        <span class="card-count"><i class="fas fa-star"></i> 500+</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag" data-i18n="card-tag-setup">Установка</span>
+                        <h3 data-i18n="service-windows-title">Установка Windows + драйверы</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-check-circle"></i> <span data-i18n="card-meta-warranty">Гарантия</span></span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price"><span data-i18n="card-price-from">от</span> 99 <span data-i18n="card-price-currency">тыс сум</span></span>
+                            <button class="btn-details" data-i18n="card-btn-details">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card scale-in delay-2" data-service="setup" data-title="Полная настройка ПК" data-price="200-250 тыс сум" data-steps="Анализ системы|Удаление ненужных программ|Оптимизация автозагрузки|Настройка системы|Установка программ|Настройка безопасности|Финальная проверка">
+                    <div class="card-image">
+                        <div class="card-icon"><i class="fas fa-cogs"></i></div>
+                        <span class="card-badge" data-i18n="card-badge-complex">Комплекс</span>
+                        <span class="card-count"><i class="fas fa-star"></i> 300+</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag" data-i18n="card-tag-setup-label">Настройка</span>
+                        <h3 data-i18n="service-setup-title">Полная настройка ПК</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-check-circle"></i> <span data-i18n="card-meta-warranty">Гарантия</span></span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price"><span data-i18n="card-price-from">от</span> 150 <span data-i18n="card-price-currency">тыс сум</span></span>
+                            <button class="btn-details" data-i18n="card-btn-details">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card scale-in delay-3" data-service="virus" data-title="Удаление вирусов" data-price="от 100 тыс сум" data-steps="Сканирование системы|Выявление угроз|Удаление вирусов|Очистка реестра|Установка антивируса|Настройка защиты|Рекомендации по безопасности">
+                    <div class="card-image">
+                        <div class="card-icon"><i class="fas fa-virus-slash"></i></div>
+                        <span class="card-badge" data-i18n="card-badge-fast">Быстро</span>
+                        <span class="card-count"><i class="fas fa-star"></i> 400+</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag" data-i18n="card-tag-protection">Защита</span>
+                        <h3 data-i18n="service-virus-title">Удаление вирусов</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-shield-alt"></i> <span data-i18n="card-meta-antivirus">Антивирус</span></span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price"><span data-i18n="card-price-from">от</span> 100 <span data-i18n="card-price-currency">тыс сум</span></span>
+                            <button class="btn-details" data-i18n="card-btn-details">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card scale-in delay-4" data-service="speed" data-title="Ускорение компьютера" data-price="150 тыс сум" data-steps="Диагностика производительности|Очистка от мусора|Дефрагментация диска|Оптимизация системы|Отключение лишних служб|Настройка SSD|Тестирование скорости">
+                    <div class="card-image">
+                        <div class="card-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        <span class="card-badge" data-i18n="card-badge-top">Топ</span>
+                        <span class="card-count"><i class="fas fa-star"></i> 350+</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag" data-i18n="card-tag-optimization">Оптимизация</span>
+                        <h3 data-i18n="service-speed-title">Ускорение компьютера</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-bolt"></i> <span data-i18n="card-meta-speed">+50% скорости</span></span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price"><span data-i18n="card-price-from">от</span> 150 <span data-i18n="card-price-currency">тыс сум</span></span>
+                            <button class="btn-details" data-i18n="card-btn-details">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card scale-in delay-5" data-service="printer" data-title="Настройка принтера и интернета" data-price="от 100 тыс сум" data-steps="Подключение устройства|Установка драйверов|Настройка сети|Тестовая печать|Настройка Wi-Fi|Проверка скорости|Инструктаж">
+                    <div class="card-image">
+                        <div class="card-icon"><i class="fas fa-print"></i></div>
+                        <span class="card-badge" data-i18n="card-badge-service">Сервис</span>
+                        <span class="card-count"><i class="fas fa-star"></i> 200+</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag" data-i18n="card-tag-connection">Подключение</span>
+                        <h3 data-i18n="service-printer-title">Настройка принтера и интернета</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-wifi"></i> Wi-Fi / LAN</span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price"><span data-i18n="card-price-from">от</span> 100 <span data-i18n="card-price-currency">тыс сум</span></span>
+                            <button class="btn-details" data-i18n="card-btn-details">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="service-card scale-in delay-6" data-service="diagnostic" data-title="Диагностика компьютера" data-price="50 тыс сум" data-steps="Визуальный осмотр|Тестирование компонентов|Проверка жёсткого диска|Анализ температур|Проверка ОЗУ|Составление отчёта|Рекомендации">
+                    <div class="card-image card-image-free">
+                        <div class="card-icon"><i class="fas fa-stethoscope"></i></div>
+                        <span class="card-badge card-badge-free" data-i18n="card-badge-top-short">ТОП</span>
+                        <span class="card-count"><i class="fas fa-star"></i> 1000+</span>
+                    </div>
+                    <div class="card-content">
+                        <span class="card-tag card-tag-free" data-i18n="card-tag-diagnostic">Диагностика</span>
+                        <h3 data-i18n="service-diagnostic-title">Диагностика компьютера</h3>
+                        <div class="card-meta">
+                            <span><i class="fas fa-search"></i> <span data-i18n="card-meta-analysis">Полный анализ</span></span>
+                        </div>
+                        <div class="card-footer">
+                            <span class="price price-free"><span data-i18n="card-price-from">от</span> 50 <span data-i18n="card-price-currency">тыс сум</span></span>
+                            <button class="btn-details btn-details-free" data-i18n="card-btn-details">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header fade-in">
+                <h2 data-i18n="contact-title">Оставьте заявку</h2>
+                <p data-i18n="contact-subtitle">Мы перезвоним вам в течение 15 минут</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info fade-in-left">
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4 data-i18n="phone-label">Телефон</h4>
+                            <a href="tel:+998901234567">+998 94 673 07 67</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fab fa-telegram"></i></div>
+                        <div>
+                            <h4>Telegram</h4>
+                            <a href="https://t.me/itmaster_uz">@itmaster_uz</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4 data-i18n="address-label">Адрес</h4>
+                            <span data-i18n="address-value">г. Наманган, ул. Шифокор 10</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form fade-in-right" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Ваше имя" data-i18n-placeholder="form-name-placeholder" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Номер телефона" data-i18n-placeholder="form-phone-placeholder" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <select id="service" required>
+                            <option value="" data-i18n="form-select-default">Выберите услугу</option>
+                            <option value="windows" data-i18n="service-windows-title">Установка Windows + драйверы</option>
+                            <option value="setup" data-i18n="service-setup-title">Полная настройка ПК</option>
+                            <option value="virus" data-i18n="service-virus-title">Удаление вирусов</option>
+                            <option value="speed" data-i18n="service-speed-title">Ускорение компьютера</option>
+                            <option value="printer" data-i18n="service-printer-title">Настройка принтера и интернета</option>
+                            <option value="diagnostic" data-i18n="service-diagnostic-title">Диагностика</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Опишите проблему" data-i18n-placeholder="form-message-placeholder" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" data-i18n="form-submit">
+                        Отправить заявку
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <span>IT Мастер</span>
+                    </a>
+                    <p data-i18n="footer-desc">Профессиональный ремонт компьютеров с 2017 года.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer-services">Услуги</h4>
+                    <ul>
+                        <li><a href="#pricing" data-i18n="service-windows-title">Установка Windows</a></li>
+                        <li><a href="#pricing" data-i18n="service-virus-title">Удаление вирусов</a></li>
+                        <li><a href="#pricing" data-i18n="service-speed-title">Ускорение ПК</a></li>
+                        <li><a href="#pricing" data-i18n="service-printer-title">Настройка принтера</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 data-i18n="footer-contacts">Контакты</h4>
+                    <ul>
+                        <li>+998 93 673 07 67</li>
+                        <li>info@itmaster.uz</li>
+                        <li>09:00 - 21:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-i18n="footer-copy">&copy; 2025 IT Мастер. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Service Detail Modal -->
+    <div class="modal" id="serviceModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <div class="modal-icon" id="modalIcon"></div>
+                <h2 id="modalTitle"></h2>
+                <span class="modal-price" id="modalPrice"></span>
+            </div>
+            <div class="modal-body">
+                <h3 data-i18n="modal-how">Как проходит работа:</h3>
+                <div class="process-steps" id="modalSteps"></div>
+                <div class="modal-info">
+                    <div class="info-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span data-i18n="modal-warranty">Гарантия на работу</span>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary btn-lg" id="openRequestBtn">
+                    <i class="fas fa-paper-plane"></i> <span data-i18n="modal-btn-request">Оставить заявку</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Request Popup -->
+    <div class="popup" id="requestPopup">
+        <div class="popup-overlay"></div>
+        <div class="popup-content">
+            <button class="popup-close"><i class="fas fa-times"></i></button>
+            <h2 data-i18n="popup-title">Оставить заявку</h2>
+            <p data-i18n="popup-subtitle">Заполните форму и мы свяжемся с вами</p>
+            <form id="popupForm">
+                <div class="form-group">
+                    <input type="text" id="popupName" placeholder="Ваше имя" data-i18n-placeholder="form-name-placeholder" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="popupPhone" placeholder="Номер телефона" data-i18n-placeholder="form-phone-placeholder" required>
+                </div>
+                <div class="form-group">
+                    <select id="popupService" required>
+                        <option value="" data-i18n="form-select-default">Выберите услугу</option>
+                        <option value="windows" data-i18n="service-windows-title">Установка Windows + драйверы</option>
+                        <option value="setup" data-i18n="service-setup-title">Полная настройка ПК</option>
+                        <option value="virus" data-i18n="service-virus-title">Удаление вирусов</option>
+                        <option value="speed" data-i18n="service-speed-title">Ускорение компьютера</option>
+                        <option value="printer" data-i18n="service-printer-title">Настройка принтера и интернета</option>
+                        <option value="diagnostic" data-i18n="service-diagnostic-title">Диагностика</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="popupDescription" placeholder="Опишите подробно что нужно сделать..." data-i18n-placeholder="form-description-placeholder" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg btn-block">
+                    <i class="fas fa-check"></i> <span data-i18n="form-submit">Отправить заявку</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
